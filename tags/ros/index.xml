@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROS on YUJIE HE</title>
+    <link>https://yujie-he.github.io/tags/ros/</link>
+    <description>Recent content in ROS on YUJIE HE</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Last updated on Jul 01, 2022 · Yujie HE &amp;copy; 2019 - 2022</copyright>
+    <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://yujie-he.github.io/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multi-modal pedestrian behavior analysis for Qolo robot</title>
+      <link>https://yujie-he.github.io/project/2021-qolo-pedestrian-analysis/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2021-qolo-pedestrian-analysis/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Research Assistant&lt;/strong&gt; at &lt;a href=&#34;https://lasa.epfl.ch/&#34; target=&#34;_blank&#34;&gt;Learning Algorithms and  Systems Laboratory (LASA)&lt;/a&gt;, EPFL since &lt;em&gt;Oct. 2021&lt;/em&gt;
+Supervisor: &lt;a href=&#34;https://people.epfl.ch/diego.paez&#34; target=&#34;_blank&#34;&gt;Dr. Diego Felipe Paez Granados&lt;/a&gt;, and &lt;a href=&#34;https://people.epfl.ch/aude.billard?lang=en&#34; target=&#34;_blank&#34;&gt;Prof. Aude Billard&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;img src=&#34;./qolo_tracking.gif&#34; alt=&#34;Qolo trajectory and tracked pedestrian in world frame&#34;  width=&#34;90%&#34;  /&gt;
+  &lt;small&gt;
+  &lt;b&gt;
+     Qolo trajectory and tracked pedestrian in world frame
+  &lt;/b&gt;
+  &lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;In this work, we will create a dataset of mobile robot navigation around pedestrians from experimental data of a personal mobility device navigating autonomously around pedestrians in the streets of center Lausanne.&lt;/p&gt;
+
+&lt;p&gt;The focus will be to assess people navigation behavior around the robot by extracting trajectories and motions. I aim to build a detecting, tracking, and motion profile extraction pipeline on lidar and camera data.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;img src=&#34;./featured.png&#34; alt=&#34;dataset_qolo_overview&#34;  width=&#34;60%&#34;  /&gt;
+  &lt;small&gt;
+  &lt;b&gt;
+    Overview of detected pedestrian from recorded rosbag and qolo robot
+  &lt;/b&gt;
+  &lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;single-sequence-evaluation&#34;&gt;Single sequence evaluation&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Metrics&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Crowd characteristics&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;./crowd_density.png&#34; alt=&#34;dataset_qolo_overview&#34;  width=&#34;80%&#34;  /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Path efficiency&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;./qolo_path.png&#34; alt=&#34;qolo_path&#34;  width=&#34;70%&#34;  /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Shared control performance&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;./qolo_command.png&#34; alt=&#34;qolo_command&#34;  width=&#34;85%&#34;  /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;interclass-evaluation&#34;&gt;Interclass evaluation&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;./comp_path.png&#34; alt=&#34;comp_path&#34;  width=&#34;85%&#34;  /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dataset-and-toolkit-overview&#34;&gt;Dataset and toolkit overview&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Code available in &lt;a href=&#34;https://github.com/epfl-lasa/crowdbot-evaluation-tools&#34; target=&#34;_blank&#34;&gt;epfl-lasa/&lt;strong&gt;crowdbot-evaluation-tools&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;./single_frame_aggregate.jpg&#34; alt=&#34;single_frame_aggregate&#34;  width=&#34;95%&#34;  /&gt;
+&lt;center&gt;
+&lt;center&gt;
+Trajectory of qolo with detected pedestrians
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development of vision based algorithms to a window/balcony drone delivery</title>
+      <link>https://yujie-he.github.io/project/2021-lis-drone-delivery/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2021-lis-drone-delivery/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Semester Research Student&lt;/strong&gt; at &lt;a href=&#34;https://lis.epfl.ch/&#34; target=&#34;_blank&#34;&gt;Laboratory of Intelligent Systems (LIS)&lt;/a&gt;, EPFL since &lt;em&gt;Feb. 2021&lt;/em&gt;
+Supervisor: &lt;a href=&#34;https://people.epfl.ch/valentin.wueest/?lang=en&#34; target=&#34;_blank&#34;&gt;Valentin Wüest&lt;/a&gt; (PhD student), &lt;a href=&#34;https://people.epfl.ch/przemyslaw.kornatowski/?lang=en&#34; target=&#34;_blank&#34;&gt;Dr. Przemyslaw Mariusz Kornatowski&lt;/a&gt;, and &lt;a href=&#34;https://people.epfl.ch/dario.floreano&#34; target=&#34;_blank&#34;&gt;Prof. Dario Floreano&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;At the Laboratory of Intelligent Systems (LIS), passionate researchers are developing a human-friendly drone delivery system for last-cm delivery - &lt;a href=&#34;http://dronistics.epfl.ch&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Dronistics&lt;/strong&gt;&lt;/a&gt;. The system is composed of a safe drone called &lt;strong&gt;PackDrone&lt;/strong&gt; and software to control and monitor drones in real-time.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;!-- &lt;img src=&#34;gearquad.jpg&#34; alt=&#34;gearquad_parcel&#34; style=&#34;zoom:12%;&#34; /&gt; --&gt;
+  &lt;img src=&#34;https://dronistics.epfl.ch/img/PackDrone_deployed.jpg&#34; alt=&#34;PackDrone_deployed&#34;  width=&#34;200&#34;  /&gt;
+  &lt;small&gt;
+  &lt;b&gt;
+    &lt;!-- Parcel placed above the cage allows the drone to transport parcels of various sizes without negative impact on lift --&gt;
+     PackDrone can eliminate the damage from propellers or rotor blades with a foldable protective cage
+  &lt;/b&gt;
+  [Source: &lt;a href=&#34;http://dronistics.epfl.ch&#34; target=&#34;_blank&#34;&gt;Dronistics&lt;/a&gt;]
+  &lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is the goal of this semester project?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our goal is to &lt;strong&gt;deliver to a balcony/window&lt;/strong&gt; which is &lt;strong&gt;tagged with a special symbol/pattern&lt;/strong&gt;. Moreover, the drone should be equipped with a system of &lt;strong&gt;collision avoidance&lt;/strong&gt; to prevent hitting a building.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Why motivates us to work on this project?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One vivid example is that in this special period of Covid-19, people are required to keep social distance while delivery work keeps operating. In contrast to large aircraft, window/balcony delivery with lightweight drone is a reasonable and effective solution to send valuable parcels such as medical supplies rapidly and safely.&lt;/p&gt;
+
+&lt;h2 id=&#34;system-architecture&#34;&gt;System architecture&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Illustration&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Hardware&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;./featured.jpg&#34; alt=&#34;experimental_drone&#34; width=&#34;600&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Software&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;./system_arch.jpg&#34; alt=&#34;system_arch&#34; width=&#34;600&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;center&gt;
+  &lt;small&gt;
+  &lt;b&gt;System architecture of the proposed drone delivery system&lt;/b&gt;
+  &lt;/small&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Visual fiducial marker evaluation
+&lt;img src=&#34;./tag_evaluation.jpg&#34; alt=&#34;tag_evaluation&#34; width=&#34;600&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Onboard test&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;./tag_drone_real.png&#34; alt=&#34;tag_drone_real&#34; width=&#34;600&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;final-presentation&#34;&gt;Final presentation&lt;/h2&gt;
+
+&lt;!-- &lt;iframe src=&#34;https://drive.google.com/file/d/1LCtTQ2NFRRjhwrPHcfao5ApY6hocKZaQ/preview&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;&lt;/iframe&gt; --&gt;
+
+&lt;iframe src=&#34;https://drive.google.com/file/d/1VmY0fp5KuiljASgDYkci4Nhcj0Mt3HlK/preview&#34; width=&#34;700&#34; height=&#34;400&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sim2Real Development for Thymio with ROS</title>
+      <link>https://yujie-he.github.io/project/2021-ros-basics/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/project/2021-ros-basics/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://edu.epfl.ch/coursebook/fr/robotics-practicals-MICRO-453&#34; target=&#34;_blank&#34;&gt;MICRO-453 Robotics practicals&lt;/a&gt;, EPFL, 2021 Spring&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Students: &lt;a href=&#34;https://github.com/Chuanfang-Neptune&#34; target=&#34;_blank&#34;&gt;Chuanfang Ning&lt;/a&gt;, &lt;a href=&#34;https://github.com/Jianhao-zheng&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;, and Yujie He&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
+HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
+
+&lt;h2 id=&#34;keywords&#34;&gt;🔑 Keywords&lt;/h2&gt;
+
+&lt;p&gt;Thymio, PID, Way following, Obstacle avoidance, Pledge algorithm, ArUco marker, Sim2Real, Gazebo&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./sim2real.png&#34; alt=&#34;sim2real&#34; style=&#34;zoom:50%;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;small&gt;
+&lt;strong&gt;The tested environment in Gazebo and real-world setup&lt;/strong&gt;
+&lt;/small&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;example-videos&#34;&gt;📷 Example videos&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For more examples, please refer to &lt;a href=&#34;https://go.epfl.ch/ros_basics_final_2021&#34; target=&#34;_blank&#34;&gt;https://go.epfl.ch/ros_basics_final_2021&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Simulation in Gazebo&lt;/th&gt;
+&lt;th&gt;Real-world test on campus&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;iframe width=&#34;340&#34; height=&#34;200&#34; src=&#34;https://www.youtube.com/embed/_3xvN2QztKM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;td&gt;&lt;iframe width=&#34;340&#34; height=&#34;200&#34; src=&#34;https://www.youtube.com/embed/Ydh_I8mSHz4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;how-to-launch-the-example-code&#34;&gt;🔨 How to launch the example code?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For more details, please refer to &lt;a href=&#34;https://github.com/hibetterheyj/EPFL_ROS_Practicals_Project/&#34; target=&#34;_blank&#34;&gt;hibetterheyj/&lt;strong&gt;EPFL_ROS_Practicals_Project&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;simulate Thymio robot in Gazebo with an interactive window&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  roslaunch ros_basics_control simu_thymio.launch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;adding waypoints and obstacle for the robot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  roslaunch ros_basics_control simu_thymio.launch
+  roslaunch ros_basics_exercise set_simu_waypoints_obstacle.launch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;extract pose and sensor information from rosbag files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  roslaunch ros_basics_exercise view_with_rosbag.launch
+  # open a new terminal
+  rosrun ros_basics_exercise topic_reader.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;plot trajectory comparison between real and simulation (using matlab)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;  cd results_from_bag/
+  # run `plot_traj_comp.m` in MATLAB
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/hibetterheyj/EPFL_ROS_Practicals_Project/master/results_from_bag/traj_thymio_simulation_navigation_with_obstacle_avoidance.png&#34; alt=&#34;traj_thymio_simulation_navigation_with_obstacle_avoidance&#34; style=&#34;zoom:30%;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgement&#34;&gt;⭐️ Acknowledgement&lt;/h2&gt;
+
+&lt;p&gt;Thanks to Vaios Papaspyros and Rafael Barmak from MOBOTS at EPFL for the amazing course tutorials !&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

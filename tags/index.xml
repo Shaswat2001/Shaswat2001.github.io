@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on YUJIE HE</title>
+    <link>https://yujie-he.github.io/tags/</link>
+    <description>Recent content in Tags on YUJIE HE</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Last updated on Jul 01, 2022 · Yujie HE &amp;copy; 2019 - 2022</copyright>
+    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://yujie-he.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://yujie-he.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured💡</title>
+      <link>https://yujie-he.github.io/tags/featured/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In Progress⚡</title>
+      <link>https://yujie-he.github.io/tags/in-progress/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/in-progress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Vision</title>
+      <link>https://yujie-he.github.io/tags/machine-vision/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/machine-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural rendering</title>
+      <link>https://yujie-he.github.io/tags/neural-rendering/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/neural-rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic segmentation</title>
+      <link>https://yujie-he.github.io/tags/semantic-segmentation/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/semantic-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LiDAR</title>
+      <link>https://yujie-he.github.io/tags/lidar/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/lidar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://yujie-he.github.io/tags/ros/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/ros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>https://yujie-he.github.io/tags/robotics/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finished😊</title>
+      <link>https://yujie-he.github.io/tags/finished/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/finished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive response reasoning</title>
+      <link>https://yujie-he.github.io/tags/adaptive-response-reasoning/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/adaptive-response-reasoning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminative correlation filter</title>
+      <link>https://yujie-he.github.io/tags/discriminative-correlation-filter/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/discriminative-correlation-filter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-time UAV tracking</title>
+      <link>https://yujie-he.github.io/tags/real-time-uav-tracking/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/real-time-uav-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mechatronics</title>
+      <link>https://yujie-he.github.io/tags/mechatronics/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/mechatronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PX4</title>
+      <link>https://yujie-he.github.io/tags/px4/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/px4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pixhawk</title>
+      <link>https://yujie-he.github.io/tags/pixhawk/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/pixhawk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unmanned Aerial Vehicle</title>
+      <link>https://yujie-he.github.io/tags/unmanned-aerial-vehicle/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/unmanned-aerial-vehicle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual fiducial marker</title>
+      <link>https://yujie-he.github.io/tags/visual-fiducial-marker/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/visual-fiducial-marker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reference-management</title>
+      <link>https://yujie-he.github.io/tags/reference-management/</link>
+      <pubDate>Thu, 22 Apr 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/reference-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zotero</title>
+      <link>https://yujie-he.github.io/tags/zotero/</link>
+      <pubDate>Thu, 22 Apr 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/zotero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sim2Real</title>
+      <link>https://yujie-he.github.io/tags/sim2real/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/sim2real/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thymio</title>
+      <link>https://yujie-he.github.io/tags/thymio/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/thymio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous driving</title>
+      <link>https://yujie-he.github.io/tags/autonomous-driving/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/autonomous-driving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linear least square</title>
+      <link>https://yujie-he.github.io/tags/linear-least-square/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/linear-least-square/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simultaneous localization and mapping</title>
+      <link>https://yujie-he.github.io/tags/simultaneous-localization-and-mapping/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/simultaneous-localization-and-mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aerial object tracking</title>
+      <link>https://yujie-he.github.io/tags/aerial-object-tracking/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/aerial-object-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disruptor-aware bucketing</title>
+      <link>https://yujie-he.github.io/tags/disruptor-aware-bucketing/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/disruptor-aware-bucketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interval-based response inconsistency</title>
+      <link>https://yujie-he.github.io/tags/interval-based-response-inconsistency/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/interval-based-response-inconsistency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aerial video analysis</title>
+      <link>https://yujie-he.github.io/tags/aerial-video-analysis/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/aerial-video-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporary block-based bidirectional incongruity</title>
+      <link>https://yujie-he.github.io/tags/temporary-block-based-bidirectional-incongruity/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/temporary-block-based-bidirectional-incongruity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unmanned aerial vehicles</title>
+      <link>https://yujie-he.github.io/tags/unmanned-aerial-vehicles/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/unmanned-aerial-vehicles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual object tracking</title>
+      <link>https://yujie-he.github.io/tags/visual-object-tracking/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/visual-object-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attention mechanisms</title>
+      <link>https://yujie-he.github.io/tags/attention-mechanisms/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/attention-mechanisms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual tracking</title>
+      <link>https://yujie-he.github.io/tags/visual-tracking/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/visual-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive context analysis</title>
+      <link>https://yujie-he.github.io/tags/adaptive-context-analysis/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/adaptive-context-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic weighted filters</title>
+      <link>https://yujie-he.github.io/tags/dynamic-weighted-filters/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/dynamic-weighted-filters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-kernelized correlators</title>
+      <link>https://yujie-he.github.io/tags/multi-kernelized-correlators/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/multi-kernelized-correlators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IROS</title>
+      <link>https://yujie-he.github.io/tags/iros/</link>
+      <pubDate>Mon, 04 Nov 2019 12:00:00 +0800</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/iros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://yujie-he.github.io/tags/conference/</link>
+      <pubDate>Mon, 04 Nov 2019 12:00:00 +0800</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Correlation filter</title>
+      <link>https://yujie-he.github.io/tags/correlation-filter/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/correlation-filter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sample purification</title>
+      <link>https://yujie-he.github.io/tags/sample-purification/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/sample-purification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Racecar</title>
+      <link>https://yujie-he.github.io/tags/racecar/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujie-he.github.io/tags/racecar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
