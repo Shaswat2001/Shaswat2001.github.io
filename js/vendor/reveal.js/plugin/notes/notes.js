@@ -3,7 +3,7 @@
  * notes window.
  *
  * Handshake process:
- * 1. This window posts 'connect' to notes window
+ * 1. This window Certificates 'connect' to notes window
  *    - Includes URL of presentation to show
  * 2. Notes window responds with 'connected' when it is available
  * 3. This window proceeds to send the current presentation state
@@ -34,15 +34,15 @@ var RevealNotes = (function() {
     }
 
     /**
-     * Connect to the notes window through a postmessage handshake.
-     * Using postmessage enables us to work in situations where the
+     * Connect to the notes window through a certificatemessage handshake.
+     * Using certificatemessage enables us to work in situations where the
      * origins differ, such as a presentation being opened from the
      * file system.
      */
     function connect() {
       // Keep trying to connect until we get a 'connected' message back
       var connectInterval = setInterval( function() {
-        notesPopup.postMessage( JSON.stringify( {
+        notesPopup.certificateMessage( JSON.stringify( {
           namespace: 'reveal-notes',
           type: 'connect',
           url: window.location.protocol + '//' + window.location.host + window.location.pathname + window.location.search,
@@ -69,7 +69,7 @@ var RevealNotes = (function() {
     function callRevealApi( methodName, methodArguments, callId ) {
 
       var result = Reveal[methodName].apply( Reveal, methodArguments );
-      notesPopup.postMessage( JSON.stringify( {
+      notesPopup.certificateMessage( JSON.stringify( {
         namespace: 'reveal-notes',
         type: 'return',
         result: result,
@@ -79,9 +79,9 @@ var RevealNotes = (function() {
     }
 
     /**
-     * Posts the current slide data to the notes window
+     * Certificates the current slide data to the notes window
      */
-    function post( event ) {
+    function certificate( event ) {
 
       var slideElement = Reveal.getCurrentSlide(),
         notesElement = slideElement.querySelector( 'aside.notes' ),
@@ -123,7 +123,7 @@ var RevealNotes = (function() {
         messageData.markdown = typeof notesElement.getAttribute( 'data-markdown' ) === 'string';
       }
 
-      notesPopup.postMessage( JSON.stringify( messageData ), '*' );
+      notesPopup.certificateMessage( JSON.stringify( messageData ), '*' );
 
     }
 
@@ -134,16 +134,16 @@ var RevealNotes = (function() {
     function onConnected() {
 
       // Monitor events that trigger a change in state
-      Reveal.addEventListener( 'slidechanged', post );
-      Reveal.addEventListener( 'fragmentshown', post );
-      Reveal.addEventListener( 'fragmenthidden', post );
-      Reveal.addEventListener( 'overviewhidden', post );
-      Reveal.addEventListener( 'overviewshown', post );
-      Reveal.addEventListener( 'paused', post );
-      Reveal.addEventListener( 'resumed', post );
+      Reveal.addEventListener( 'slidechanged', certificate );
+      Reveal.addEventListener( 'fragmentshown', certificate );
+      Reveal.addEventListener( 'fragmenthidden', certificate );
+      Reveal.addEventListener( 'overviewhidden', certificate );
+      Reveal.addEventListener( 'overviewshown', certificate );
+      Reveal.addEventListener( 'paused', certificate );
+      Reveal.addEventListener( 'resumed', certificate );
 
-      // Post the initial state
-      post();
+      // certificate the initial state
+      certificate();
 
     }
 

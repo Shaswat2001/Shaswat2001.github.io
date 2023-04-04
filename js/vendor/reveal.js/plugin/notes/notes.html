@@ -393,11 +393,11 @@
       else if( data && data.namespace === 'reveal' ) {
         if( /ready/.test( data.eventName ) ) {
           // Send a message back to notify that the handshake is complete
-          window.opener.postMessage( JSON.stringify({ namespace: 'reveal-notes', type: 'connected'} ), '*' );
+          window.opener.certificateMessage( JSON.stringify({ namespace: 'reveal-notes', type: 'connected'} ), '*' );
         }
         else if( /slidechanged|fragmentshown|fragmenthidden|paused|resumed/.test( data.eventName ) && currentState !== JSON.stringify( data.state ) ) {
 
-          window.opener.postMessage( JSON.stringify({ method: 'setState', args: [ data.state ]} ), '*' );
+          window.opener.certificateMessage( JSON.stringify({ method: 'setState', args: [ data.state ]} ), '*' );
 
         }
       }
@@ -411,7 +411,7 @@
 
       var callId = ++lastRevealApiCallId;
       pendingCalls[callId] = callback;
-      window.opener.postMessage( JSON.stringify( {
+      window.opener.certificateMessage( JSON.stringify( {
         namespace: 'reveal-notes',
         type: 'call',
         callId: callId,
@@ -463,9 +463,9 @@
       }
 
       // Update the note slides
-      currentSlide.contentWindow.postMessage( JSON.stringify({ method: 'setState', args: [ data.state ] }), '*' );
-      upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: 'setState', args: [ data.state ] }), '*' );
-      upcomingSlide.contentWindow.postMessage( JSON.stringify({ method: 'next' }), '*' );
+      currentSlide.contentWindow.certificateMessage( JSON.stringify({ method: 'setState', args: [ data.state ] }), '*' );
+      upcomingSlide.contentWindow.certificateMessage( JSON.stringify({ method: 'setState', args: [ data.state ] }), '*' );
+      upcomingSlide.contentWindow.certificateMessage( JSON.stringify({ method: 'next' }), '*' );
 
     }
 
@@ -487,7 +487,7 @@
           event.preventDefault();
           return false;
         }
-        currentSlide.contentWindow.postMessage( JSON.stringify({ method: 'triggerKey', args: [ event.keyCode ] }), '*' );
+        currentSlide.contentWindow.certificateMessage( JSON.stringify({ method: 'triggerKey', args: [ event.keyCode ] }), '*' );
       } );
 
     }
@@ -508,7 +508,7 @@
 
       var urlSeparator = /\?/.test(data.url) ? '&' : '?';
       var hash = '#/' + data.state.indexh + '/' + data.state.indexv;
-      var currentURL = data.url + urlSeparator + params + '&postMessageEvents=true' + hash;
+      var currentURL = data.url + urlSeparator + params + '&certificateMessageEvents=true' + hash;
       var upcomingURL = data.url + urlSeparator + params + '&controls=false' + hash;
 
       currentSlide = document.createElement( 'iframe' );
