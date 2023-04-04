@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on YUJIE HE</title>
-    <link>https://yujie-he.github.io/project/</link>
-    <description>Recent content in Projects on YUJIE HE</description>
+    <title>Projects on Shaswat Garg</title>
+    <link>https://shaswat2001.github.io/project/</link>
+    <description>Recent content in Projects on Shaswat Garg</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Last updated on Jul 01, 2022 · Yujie HE &amp;copy; 2019 - 2022</copyright>
+    <copyright>Last updated on Jul 01, 2022 · Shaswat Garg &amp;copy; 2019 - 2022</copyright>
     <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://yujie-he.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://shaswat2001.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Neural rendering for semantic segmentation</title>
-      <link>https://yujie-he.github.io/project/2022-plr-neural-rendering/</link>
+      <link>https://shaswat2001.github.io/project/2022-plr-neural-rendering/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2022-plr-neural-rendering/</guid>
+      <guid>https://shaswat2001.github.io/project/2022-plr-neural-rendering/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -51,10 +51,10 @@ Further, the continual learning pipeline has achieved successful adaptation to r
     
     <item>
       <title>Multi-modal pedestrian behavior analysis for Qolo robot</title>
-      <link>https://yujie-he.github.io/project/2021-qolo-pedestrian-analysis/</link>
+      <link>https://shaswat2001.github.io/project/2021-qolo-pedestrian-analysis/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2021-qolo-pedestrian-analysis/</guid>
+      <guid>https://shaswat2001.github.io/project/2021-qolo-pedestrian-analysis/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -140,16 +140,16 @@ Trajectory of qolo with detected pedestrians
     
     <item>
       <title>Monocular Visual Odometry Pipeline</title>
-      <link>https://yujie-he.github.io/project/2022-visual-odometry/</link>
+      <link>https://shaswat2001.github.io/project/2022-visual-odometry/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2022-visual-odometry/</guid>
+      <guid>https://shaswat2001.github.io/project/2022-visual-odometry/</guid>
       <description>
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Final project&lt;/strong&gt; in &lt;a href=&#34;https://rpg.ifi.uzh.ch/teaching.html&#34; target=&#34;_blank&#34;&gt;UZH-DINF2039 Vision Algorithms for Mobile Robotics&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Members: Yujie He and &lt;a href=&#34;https://github.com/Jianhao-zheng/&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Members: Shaswat Garg and &lt;a href=&#34;https://github.com/Jianhao-zheng/&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Lecturer:  &lt;a href=&#34;https://rpg.ifi.uzh.ch/people_scaramuzza.html&#34; target=&#34;_blank&#34;&gt;Prof. Dr. Davide Scaramuzza&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -169,7 +169,7 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 &lt;li&gt;Triangulation of new landmarks&lt;/li&gt;
 &lt;li&gt;Local pose refinement through optimization&lt;/li&gt;
 &lt;li&gt;Bundle adjustment for better pose estimation&lt;/li&gt;
-&lt;li&gt;Release two &lt;a href=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline#custom-datasets&#34; target=&#34;_blank&#34;&gt;custom sequences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Release two &lt;a href=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline#custom-datasets&#34; target=&#34;_blank&#34;&gt;custom sequences&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
@@ -189,27 +189,27 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;KITTI seq05&lt;/strong&gt; [&lt;a href=&#34;https://www.youtube.com/watch?v=ByywzaIwTSM&amp;amp;list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&amp;amp;index=1&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;] [&lt;a href=&#34;http://rpg.ifi.uzh.ch/docs/teaching/2021/kitti05.zip&#34; target=&#34;_blank&#34;&gt;data (1.4GB)&lt;/a&gt;]&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/blob/master/gifs/kitti.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/raw/master/gifs/kitti.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/blob/master/gifs/kitti.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/raw/master/gifs/kitti.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;malaga seq07&lt;/strong&gt; [&lt;a href=&#34;https://www.youtube.com/watch?v=l-Jklm77tNg&amp;amp;list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&amp;amp;index=2&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;] [&lt;a href=&#34;http://rpg.ifi.uzh.ch/docs/teaching/2021/malaga-urban-dataset-extract-07.zip&#34; target=&#34;_blank&#34;&gt;data (4.4GB)&lt;/a&gt;]&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/blob/master/gifs/malaga.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/raw/master/gifs/malaga.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/blob/master/gifs/malaga.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/raw/master/gifs/malaga.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;parking&lt;/strong&gt; [&lt;a href=&#34;https://www.youtube.com/watch?v=Xut0iuFSy8o&amp;amp;list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&amp;amp;index=3&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;] [&lt;a href=&#34;http://rpg.ifi.uzh.ch/docs/teaching/2021/parking.zip&#34; target=&#34;_blank&#34;&gt;data (208 MB)&lt;/a&gt;]&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/blob/master/gifs/parking.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/raw/master/gifs/parking.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/blob/master/gifs/parking.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/raw/master/gifs/parking.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;epfl_parking&lt;/strong&gt; [&lt;a href=&#34;https://www.youtube.com/watch?v=eWNpX07L4_A&amp;amp;list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&amp;amp;index=4&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;] [&lt;a href=&#34;https://drive.google.com/file/d/1dWRwkZaB_mY21HzAGXzcXKBwg_2cBn5c/view&#34; target=&#34;_blank&#34;&gt;data (675 MB)&lt;/a&gt;]&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/blob/master/gifs/epfl_parking.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/raw/master/gifs/epfl_parking.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/blob/master/gifs/epfl_parking.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/raw/master/gifs/epfl_parking.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;lausanne_center_nav&lt;/strong&gt; [&lt;a href=&#34;https://www.youtube.com/watch?v=qSgeN7ElPik&amp;amp;list=PLisWEer2ynw1Ws1_km6y-xXDAIyvJ9weM&amp;amp;index=5&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;] [&lt;a href=&#34;https://drive.google.com/file/d/1e1VCh19S4wyayX6s4J-8J6ad5YZx-B9a/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;data (58.8 MB)&lt;/a&gt;]&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/blob/master/gifs/lausanne_center_nav.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline/raw/master/gifs/lausanne_center_nav.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/blob/master/gifs/lausanne_center_nav.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline/raw/master/gifs/lausanne_center_nav.gif&#34; alt=&#34;epfl_parking&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -238,7 +238,7 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 
 &lt;h3 id=&#34;how-to-run&#34;&gt;How to run&lt;/h3&gt;
 
-&lt;p&gt;Download dataset and copy them to the right folder. For details on setting data, please refer to &lt;a href=&#34;https://github.com/hibetterheyj/Visual-Odometry-Pipeline#data&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Data&lt;/strong&gt;&lt;/a&gt;. To test the VO pipeline without bundle adjustment, run &lt;code&gt;main_demo.m&lt;/code&gt;. Change variable &lt;code&gt;ds&lt;/code&gt; to switch the testing dataset.&lt;/p&gt;
+&lt;p&gt;Download dataset and copy them to the right folder. For details on setting data, please refer to &lt;a href=&#34;https://github.com/Shaswat2001/Visual-Odometry-Pipeline#data&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Data&lt;/strong&gt;&lt;/a&gt;. To test the VO pipeline without bundle adjustment, run &lt;code&gt;main_demo.m&lt;/code&gt;. Change variable &lt;code&gt;ds&lt;/code&gt; to switch the testing dataset.&lt;/p&gt;
 
 &lt;p&gt;For VO with bundle adjustment, plese run &lt;code&gt;main_BA.m&lt;/code&gt; and make sure &lt;code&gt;hyper_paras.is_BA&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt;. (For now, only tested in parking dataset, ds = 2)&lt;/p&gt;
 
@@ -284,17 +284,17 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 &lt;h3 id=&#34;related-repos&#34;&gt;Related repos&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hibetterheyj&#34; target=&#34;_blank&#34;&gt;hibetterheyj&lt;/a&gt;/&lt;strong&gt;&lt;a href=&#34;https://github.com/hibetterheyj/VideoIMUCapture-Android&#34; target=&#34;_blank&#34;&gt;VideoIMUCapture-Android&lt;/a&gt;&lt;/strong&gt; for camera calibration and image preprocessing (undistortion &amp;amp; resize)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Shaswat2001&#34; target=&#34;_blank&#34;&gt;hibetterheyj&lt;/a&gt;/&lt;strong&gt;&lt;a href=&#34;https://github.com/Shaswat2001/VideoIMUCapture-Android&#34; target=&#34;_blank&#34;&gt;VideoIMUCapture-Android&lt;/a&gt;&lt;/strong&gt; for camera calibration and image preprocessing (undistortion &amp;amp; resize)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Development of vision based algorithms to a window/balcony drone delivery</title>
-      <link>https://yujie-he.github.io/project/2021-lis-drone-delivery/</link>
+      <link>https://shaswat2001.github.io/project/2021-lis-drone-delivery/</link>
       <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2021-lis-drone-delivery/</guid>
+      <guid>https://shaswat2001.github.io/project/2021-lis-drone-delivery/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -383,16 +383,16 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
     
     <item>
       <title>Autonomous Navigation and Landing for Crazyflie</title>
-      <link>https://yujie-he.github.io/project/2021-crazyflie-auto-nav/</link>
+      <link>https://shaswat2001.github.io/project/2021-crazyflie-auto-nav/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2021-crazyflie-auto-nav/</guid>
+      <guid>https://shaswat2001.github.io/project/2021-crazyflie-auto-nav/</guid>
       <description>
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Final project&lt;/strong&gt; in &lt;a href=&#34;https://edu.epfl.ch/coursebook/fr/aerial-robotics-MICRO-502&#34; target=&#34;_blank&#34;&gt;MICRO-502 Aerial robotics&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Members: Yujie He, &lt;a href=&#34;https://github.com/Jianhao-zheng/&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;, and &lt;a href=&#34;https://github.com/kevinxqiu&#34; target=&#34;_blank&#34;&gt;Longlai Qiu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Members: Shaswat Garg, &lt;a href=&#34;https://github.com/Jianhao-zheng/&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;, and &lt;a href=&#34;https://github.com/kevinxqiu&#34; target=&#34;_blank&#34;&gt;Longlai Qiu&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Lecturer:  &lt;a href=&#34;https://people.epfl.ch/dario.floreano/?lang=en&#34; target=&#34;_blank&#34;&gt;Prof. Dario Floreano&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -404,7 +404,7 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 
 &lt;p&gt;In this practical, we programed based on &lt;a href=&#34;https://www.bitcraze.io/products/crazyflie-2-1/&#34; target=&#34;_blank&#34;&gt;Crazyflie 2.1&lt;/a&gt; to find and precisely land on a platform with height of 10 cm by utilizing z reading from &lt;a href=&#34;https://www.bitcraze.io/products/flow-deck-v2/&#34; target=&#34;_blank&#34;&gt;flow deck&lt;/a&gt;. Additionally, We also utilized sensor readings from &lt;a href=&#34;https://www.bitcraze.io/products/multi-ranger-deck/&#34; target=&#34;_blank&#34;&gt;multi-ranger deck&lt;/a&gt; to avoid the obstacles presented in the environment.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cover.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cover.jpg&#34; alt=&#34;cover&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Shaswat2001/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cover.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/Shaswat2001/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cover.jpg&#34; alt=&#34;cover&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;pipeline&#34;&gt;Pipeline&lt;/h2&gt;
 
@@ -445,7 +445,7 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 &lt;h3 id=&#34;structure&#34;&gt;Structure&lt;/h3&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Code folder: &lt;a href=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/tree/master/code/crazyflie-lib-python/group_7&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;./code/crazyflie-lib-python/group_7/&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Code folder: &lt;a href=&#34;https://github.com/Shaswat2001/Crazyflie_Auto_Navigation_Landing/tree/master/code/crazyflie-lib-python/group_7&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;./code/crazyflie-lib-python/group_7/&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;.
@@ -475,7 +475,7 @@ python overall.py -x 0.6 -y 0.6 -v
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cf_land.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cf_land.gif&#34; alt=&#34;cf_land&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Shaswat2001/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cf_land.gif&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/Shaswat2001/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cf_land.gif&#34; alt=&#34;cf_land&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;code&gt;draw_traj.py&lt;/code&gt;: x-y trajectory visualization with region annotation&lt;/p&gt;
@@ -489,7 +489,7 @@ python draw_traj_demo.py --logname overall-20210530_1930 -n cf_demo --zone_anno
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cf_demo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/hibetterheyj/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cf_demo.png&#34; alt=&#34;cf_demo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Shaswat2001/Crazyflie_Auto_Navigation_Landing/blob/master/pics/cf_demo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/Shaswat2001/Crazyflie_Auto_Navigation_Landing/raw/master/pics/cf_demo.png&#34; alt=&#34;cf_demo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The estimated values drift considerably after long flights. Moreover, the predicted starting position is significantly different from the starting point after the drone re-takes off.&lt;/p&gt;
 
@@ -527,16 +527,16 @@ python draw_traj_demo.py --logname overall-20210530_1930 -n cf_demo --zone_anno
     
     <item>
       <title>Sim2Real Development for Thymio with ROS</title>
-      <link>https://yujie-he.github.io/project/2021-ros-basics/</link>
+      <link>https://shaswat2001.github.io/project/2021-ros-basics/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2021-ros-basics/</guid>
+      <guid>https://shaswat2001.github.io/project/2021-ros-basics/</guid>
       <description>
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://edu.epfl.ch/coursebook/fr/robotics-practicals-MICRO-453&#34; target=&#34;_blank&#34;&gt;MICRO-453 Robotics practicals&lt;/a&gt;, EPFL, 2021 Spring&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Students: &lt;a href=&#34;https://github.com/Chuanfang-Neptune&#34; target=&#34;_blank&#34;&gt;Chuanfang Ning&lt;/a&gt;, &lt;a href=&#34;https://github.com/Jianhao-zheng&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;, and Yujie He&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Students: &lt;a href=&#34;https://github.com/Chuanfang-Neptune&#34; target=&#34;_blank&#34;&gt;Chuanfang Ning&lt;/a&gt;, &lt;a href=&#34;https://github.com/Jianhao-zheng&#34; target=&#34;_blank&#34;&gt;Jianhao Zheng&lt;/a&gt;, and Shaswat Garg&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
@@ -577,7 +577,7 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 &lt;h2 id=&#34;how-to-launch-the-example-code&#34;&gt;🔨 How to launch the example code?&lt;/h2&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;For more details, please refer to &lt;a href=&#34;https://github.com/hibetterheyj/EPFL_ROS_Practicals_Project/&#34; target=&#34;_blank&#34;&gt;hibetterheyj/&lt;strong&gt;EPFL_ROS_Practicals_Project&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more details, please refer to &lt;a href=&#34;https://github.com/Shaswat2001/EPFL_ROS_Practicals_Project/&#34; target=&#34;_blank&#34;&gt;hibetterheyj/&lt;strong&gt;EPFL_ROS_Practicals_Project&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
@@ -622,10 +622,10 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
     
     <item>
       <title>Online Visual Object Tracking for UAV in Dynamic Environments</title>
-      <link>https://yujie-he.github.io/project/2020-tracking4uav/</link>
+      <link>https://shaswat2001.github.io/project/2020-tracking4uav/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2020-tracking4uav/</guid>
+      <guid>https://shaswat2001.github.io/project/2020-tracking4uav/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -661,7 +661,7 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    For more info, please refer to my &lt;a href=&#34;https://www.youtube.com/channel/UCGpK01NL0j3RkXpsODXm-Dg&#34; target=&#34;_blank&#34;&gt;YouTube channel&lt;/a&gt; and &lt;a href=&#34;https://github.com/hibetterheyj&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.
+    For more info, please refer to my &lt;a href=&#34;https://www.youtube.com/channel/UCGpK01NL0j3RkXpsODXm-Dg&#34; target=&#34;_blank&#34;&gt;YouTube channel&lt;/a&gt; and &lt;a href=&#34;https://github.com/Shaswat2001&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -669,10 +669,10 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
     
     <item>
       <title>3D Zonal Segmentation of the Prostate MRI (Deep Learning Final Project)</title>
-      <link>https://yujie-he.github.io/project/2019-dl-mip/</link>
+      <link>https://shaswat2001.github.io/project/2019-dl-mip/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2019-dl-mip/</guid>
+      <guid>https://shaswat2001.github.io/project/2019-dl-mip/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Final project for TJ-100685 深度学习 | Deep learning&lt;/strong&gt;, &lt;em&gt;Sep. 2019 - Jan. 2020&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -683,16 +683,16 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Conducted extensive evaluation between the proposed UWG-Net with the baseline with &lt;strong&gt;small batch sizes&lt;/strong&gt;, achieving 2-3\% increase in &lt;strong&gt;multi-class segmentation accuracy&lt;/strong&gt; for medical imaging application.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For more info, you can refer to this &lt;a href=&#34;https://yujie-he.github.io/study/2019-deep-learning/final_project/&#34; target=&#34;_blank&#34;&gt;page&lt;/a&gt; !&lt;/p&gt;
+&lt;p&gt;For more info, you can refer to this &lt;a href=&#34;https://shaswat2001.github.io/study/2019-deep-learning/final_project/&#34; target=&#34;_blank&#34;&gt;page&lt;/a&gt; !&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Teaching Assistant in Open Source Hardware and Programming</title>
-      <link>https://yujie-he.github.io/project/2019-tongji-ta/</link>
+      <link>https://shaswat2001.github.io/project/2019-tongji-ta/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2019-tongji-ta/</guid>
+      <guid>https://shaswat2001.github.io/project/2019-tongji-ta/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Teaching Assistant&lt;/strong&gt;, &lt;em&gt;Sep. 2018 - Jan. 2019&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -717,10 +717,10 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
     
     <item>
       <title>DIAN Racing Formula Student Electric Team</title>
-      <link>https://yujie-he.github.io/project/2018-dian-racing/</link>
+      <link>https://shaswat2001.github.io/project/2018-dian-racing/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2018-dian-racing/</guid>
+      <guid>https://shaswat2001.github.io/project/2018-dian-racing/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Powertrain Group Leader&lt;/strong&gt;, &lt;em&gt;Sep. 2016 - Dec. 2018&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -746,10 +746,10 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
     
     <item>
       <title>SLAM and Autonomous Navigation for Skid Steer Wheel Robot</title>
-      <link>https://yujie-he.github.io/project/2018-hesai-internship/</link>
+      <link>https://shaswat2001.github.io/project/2018-hesai-internship/</link>
       <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2018-hesai-internship/</guid>
+      <guid>https://shaswat2001.github.io/project/2018-hesai-internship/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -806,10 +806,10 @@ HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
     
     <item>
       <title>Super Power Robot Team</title>
-      <link>https://yujie-he.github.io/project/2018-super-power/</link>
+      <link>https://shaswat2001.github.io/project/2018-super-power/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/project/2018-super-power/</guid>
+      <guid>https://shaswat2001.github.io/project/2018-super-power/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Project Manager &amp;amp; Mechanical Development Leader&lt;/strong&gt;, &lt;em&gt;Oct. 2016 - Jun. 2018&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

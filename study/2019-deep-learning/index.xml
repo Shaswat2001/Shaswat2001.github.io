@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview on YUJIE HE</title>
-    <link>https://yujie-he.github.io/study/2019-deep-learning/</link>
-    <description>Recent content in Overview on YUJIE HE</description>
+    <title>Overview on Shaswat Garg</title>
+    <link>https://shaswat2001.github.io/study/2019-deep-learning/</link>
+    <description>Recent content in Overview on Shaswat Garg</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Last updated on Jul 01, 2022 · Yujie HE &amp;copy; 2019 - 2022</copyright>
+    <copyright>Last updated on Jul 01, 2022 · Shaswat Garg &amp;copy; 2019 - 2022</copyright>
     <lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://yujie-he.github.io/study/2019-deep-learning/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://shaswat2001.github.io/study/2019-deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Overview</title>
-      <link>https://yujie-he.github.io/study/2019-deep-learning/final_project/</link>
+      <link>https://shaswat2001.github.io/study/2019-deep-learning/final_project/</link>
       <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/study/2019-deep-learning/final_project/</guid>
+      <guid>https://shaswat2001.github.io/study/2019-deep-learning/final_project/</guid>
       <description>
 
 &lt;h3 id=&#34;final-project&#34;&gt;Final Project&lt;/h3&gt;
@@ -42,7 +42,7 @@
 
 &lt;p&gt;&lt;center&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://yujie-he.github.io/img/study/tju_dl_project_result.png&#34; alt=&#34;Quantitative experiments on Prostate Dataset&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://shaswat2001.github.io/img/study/tju_dl_project_result.png&#34; alt=&#34;Quantitative experiments on Prostate Dataset&#34; /&gt;
 &lt;small&gt;Quantitative experiments on Prostate Dataset. &lt;font color=&#34;red&#34;&gt;Red&lt;/font&gt;, &lt;font color=&#34;green&#34;&gt;green&lt;/font&gt;, and &lt;font color=&#34;blue&#34;&gt;blue&lt;/font&gt; fonts denote the first, second, and third best performance among all models. &lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/center&gt;&lt;/p&gt;

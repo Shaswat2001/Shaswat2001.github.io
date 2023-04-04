@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on YUJIE HE</title>
-    <link>https://yujie-he.github.io/publication/</link>
-    <description>Recent content in Publications on YUJIE HE</description>
+    <title>Publications on Shaswat Garg</title>
+    <link>https://shaswat2001.github.io/publication/</link>
+    <description>Recent content in Publications on Shaswat Garg</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Last updated on Jul 01, 2022 · Yujie HE &amp;copy; 2019 - 2022</copyright>
+    <copyright>Last updated on Jul 01, 2022 · Shaswat Garg &amp;copy; 2019 - 2022</copyright>
     <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://yujie-he.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://shaswat2001.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ReCF: Exploiting Response Reasoning for Correlation Filters in Real-Time UAV Tracking</title>
-      <link>https://yujie-he.github.io/publication/2021_recf_tits/</link>
+      <link>https://shaswat2001.github.io/publication/2021_recf_tits/</link>
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/publication/2021_recf_tits/</guid>
+      <guid>https://shaswat2001.github.io/publication/2021_recf_tits/</guid>
       <description>&lt;p&gt;&lt;center&gt;
 &lt;img src=&#34;featured.jpg&#34; alt=&#34;ReCF_workflow&#34; /&gt;
 &lt;small&gt;Main difference between the proposed ReCF and SRDCF.&lt;/small&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>MULLS: Versatile LiDAR SLAM via Multi-metric Linear Least Square</title>
-      <link>https://yujie-he.github.io/publication/2021_mulls_icra/</link>
+      <link>https://shaswat2001.github.io/publication/2021_mulls_icra/</link>
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/publication/2021_mulls_icra/</guid>
+      <guid>https://shaswat2001.github.io/publication/2021_mulls_icra/</guid>
       <description>
 
 &lt;h3 id=&#34;teaser&#34;&gt;Teaser&lt;/h3&gt;
@@ -74,10 +74,10 @@
     
     <item>
       <title>Disruptor-Aware Interval-Based Response Inconsistency for Correlation Filters in Real-Time Aerial Tracking</title>
-      <link>https://yujie-he.github.io/publication/2020-ibri-tgrs/</link>
+      <link>https://shaswat2001.github.io/publication/2020-ibri-tgrs/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/publication/2020-ibri-tgrs/</guid>
+      <guid>https://shaswat2001.github.io/publication/2020-ibri-tgrs/</guid>
       <description>&lt;!--
 
 &lt;center&gt;
@@ -108,10 +108,10 @@ If you find this project is useful, you may cite it as:
     
     <item>
       <title>Learning Temporary Block-Based Bidirectional Incongruity-Aware Correlation Filters for Efficient UAV Object Tracking</title>
-      <link>https://yujie-he.github.io/publication/2020-tbbicf-tcsvt/</link>
+      <link>https://shaswat2001.github.io/publication/2020-tbbicf-tcsvt/</link>
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/publication/2020-tbbicf-tcsvt/</guid>
+      <guid>https://shaswat2001.github.io/publication/2020-tbbicf-tcsvt/</guid>
       <description>
 
 &lt;!--
@@ -142,10 +142,10 @@ If you find this project is useful, you may cite it as:
     
     <item>
       <title>Towards Robust Visual Tracking for Unmanned Aerial Vehicle with Tri-Attentional Correlation Filters</title>
-      <link>https://yujie-he.github.io/publication/2020_tacf_iros/</link>
+      <link>https://shaswat2001.github.io/publication/2020_tacf_iros/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/publication/2020_tacf_iros/</guid>
+      <guid>https://shaswat2001.github.io/publication/2020_tacf_iros/</guid>
       <description>
 
 &lt;!--
@@ -192,10 +192,10 @@ If you find this project is useful, you may cite it as:
     
     <item>
       <title>BiCF: Learning Bidirectional Incongruity-Aware Correlation Filter for Efficient UAV Object Tracking</title>
-      <link>https://yujie-he.github.io/publication/2020_bicf_icra/</link>
+      <link>https://shaswat2001.github.io/publication/2020_bicf_icra/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/publication/2020_bicf_icra/</guid>
+      <guid>https://shaswat2001.github.io/publication/2020_bicf_icra/</guid>
       <description>
 
 &lt;p&gt;&lt;center&gt;&lt;/p&gt;
@@ -222,10 +222,10 @@ If you find this project is useful, you may cite it as:
     
     <item>
       <title>Robust Multi-Kernelized Correlators for UAV Tracking with Adaptive Context Analysis and Dynamic Weighted Filters</title>
-      <link>https://yujie-he.github.io/publication/2020_mkct_ncaa/</link>
+      <link>https://shaswat2001.github.io/publication/2020_mkct_ncaa/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/publication/2020_mkct_ncaa/</guid>
+      <guid>https://shaswat2001.github.io/publication/2020_mkct_ncaa/</guid>
       <description>
 
 &lt;p&gt;&lt;center&gt;&lt;/p&gt;
@@ -252,10 +252,10 @@ If you find this project is useful, you may cite it as:
     
     <item>
       <title>Sample Purification-Aware Correlation Filters for UAV Tracking with Cooperative Deep Features</title>
-      <link>https://yujie-he.github.io/publication/2019_spcf_irosw/</link>
+      <link>https://shaswat2001.github.io/publication/2022_ICMAE/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yujie-he.github.io/publication/2019_spcf_irosw/</guid>
+      <guid>https://shaswat2001.github.io/publication/2022_ICMAE/</guid>
       <description>&lt;hr /&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;/p&gt;
