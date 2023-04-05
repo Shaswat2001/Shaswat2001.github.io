@@ -880,84 +880,42 @@
 <ul>
 <li>
 <ul>
-<li><a href="#demo">Demo</a></li>
 <li><a href="#background">Background</a></li>
-<li><a href="#single-sequence-evaluation">Single sequence evaluation</a></li>
-<li><a href="#interclass-evaluation">Interclass evaluation</a></li>
-<li><a href="#dataset-and-toolkit-overview">Dataset and toolkit overview</a></li>
+<li><a href="#single-sequence-evaluation">Search Based Planning</a></li>
+<li><a href="#interclass-evaluation">Sampling Based Planning</a></li>
 </ul></li>
 </ul>
 </nav></p>
 
-<h2 id="demo">Demo</h2>
-
-<p><center>
-  <img src="./qolo_tracking.gif" alt="Qolo trajectory and tracked pedestrian in world frame"  width="90%"  />
-  <small>
-  <b>
-     Qolo trajectory and tracked pedestrian in world frame
-  </b>
-  </small>
-</center></p>
-
 <h2 id="background">Background</h2>
 
-<p>In this work, we will create a dataset of mobile robot navigation around pedestrians from experimental data of a personal mobility device navigating autonomously around pedestrians in the streets of center Lausanne.</p>
+different motion planning algorithms like Heuristic and Incremental Search based and Sampling based algorithms in a 2D environment for a point robot. 
 
-<p>The focus will be to assess people navigation behavior around the robot by extracting trajectories and motions. I aim to build a detecting, tracking, and motion profile extraction pipeline on lidar and camera data.</p>
+
+<p>In this work, we will create different motion planning algorithms like Heuristic and Incremental Search based and Sampling based algorithms in a 2D environment for a point robot.</p>
+
+<p>All the algorithms are implemented in python. The environment is implemented using a priority queue and is made effecient using the concept of OOPs.</p>
+
+<h2 id="single-sequence-evaluation">Search Based Planning</h2>
 
 <p><center>
-  <img src="./featured.png" alt="dataset_qolo_overview"  width="60%"  />
+  <img src="./ARA.gif" alt="Anytime_Repairing"  width="60%"  />
   <small>
   <b>
-    Overview of detected pedestrian from recorded rosbag and qolo robot
+    Anytime Repairing A*
   </b>
   </small>
 </center></p>
 
-<h2 id="single-sequence-evaluation">Single sequence evaluation</h2>
-
-<table>
-<thead>
-<tr>
-<th>Metrics</th>
-<th>Example</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td><strong>Crowd characteristics</strong></td>
-<td><img src="./crowd_density.png" alt="dataset_qolo_overview"  width="80%"  /></td>
-</tr>
-
-<tr>
-<td><strong>Path efficiency</strong></td>
-<td><img src="./qolo_path.png" alt="qolo_path"  width="70%"  /></td>
-</tr>
-
-<tr>
-<td><strong>Shared control performance</strong></td>
-<td><img src="./qolo_command.png" alt="qolo_command"  width="85%"  /></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="interclass-evaluation">Interclass evaluation</h2>
-
-<p><img src="./comp_path.png" alt="comp_path"  width="85%"  /></p>
-
-<h2 id="dataset-and-toolkit-overview">Dataset and toolkit overview</h2>
-
-<blockquote>
-<p>Code available in <a href="https://github.com/Shaswat2001/Motion_planning_of_Robots" target="_blank">epfl-lasa/<strong>crowdbot-evaluation-tools</strong></a>!</p>
-</blockquote>
+<h2 id="single-sequence-evaluation">Sampling Based Planning</h2>
 
 <p><center>
-<img src="./single_frame_aggregate.jpg" alt="single_frame_aggregate"  width="95%"  />
-<center>
-<center>
-Trajectory of qolo with detected pedestrians
+  <img src="./RRTConnect.gif" alt="RRT_connect"  width="60%"  />
+  <small>
+  <b>
+    RRT Connect
+  </b>
+  </small>
 </center></p>
 
     </div>
@@ -968,16 +926,10 @@ Trajectory of qolo with detected pedestrians
   
   <a class="badge badge-light" href="/tags/robotics/">Robotics</a>
   
-  <a class="badge badge-light" href="/tags/machine-vision/">Machine Vision</a>
-  
-  <a class="badge badge-light" href="/tags/deep-learning/">Deep Learning</a>
-  
-  <a class="badge badge-light" href="/tags/ros/">ROS</a>
-  
-  <a class="badge badge-light" href="/tags/lidar/">LiDAR</a>
-  
-  <a class="badge badge-light" href="/tags/in-progress/">In Progress⚡</a>
-  
+  <a class="badge badge-light" href="/tags/motion-planning/">Motion Planning</a>
+    
+  <a class="badge badge-light" href="/tags/finished/">Finished😊</a>
+      
   <a class="badge badge-light" href="/tags/featured/">Featured💡</a>
   
 </div>
@@ -1004,119 +956,102 @@ Trajectory of qolo with detected pedestrians
     
   
   
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu7795066b18f9983a85c6803316470607_156579_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
-    
+  <img class="portrait mr-3" src="/authors/admin/Shaswat_Resize.jpeg" itemprop="image" alt="Avatar" width="250" height="250">
 
-    <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://shaswat2001.github.io/">Shaswat Garg</a></h5>
+
+<div class="media-body">
+  <h5 class="card-title" itemprop="name"><a href="https://shaswat2001.github.io/">Shaswat Garg</a></h5>
+  
+  
+  <ul class="network-icon" aria-hidden="true">
+    
       
       
-      <ul class="network-icon" aria-hidden="true">
+      
         
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/Shaswat2001" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
+      
+      
+      
+      
+      
         
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=8lEhoS8AAAAJ" target="_blank" rel="noopener">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://www.researchgate.net/profile/Yujie_He9" target="_blank" rel="noopener">
-              <i class="ai ai-researchgate"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://www.youtube.com/channel/UCGpK01NL0j3RkXpsODXm-Dg" target="_blank" rel="noopener">
-              <i class="fab fa-youtube"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://www.linkedin.com/in/shaswat2001" target="_blank" rel="noopener">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://twitter.com/YujieHeRobotics" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+      
+    <li>
+      <a itemprop="sameAs" href="https://github.com/Shaswat2001" target="_blank" rel="noopener">
+        <i class="fab fa-github big-icon"></i>
+      </a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a itemprop="sameAs" href="https://scholar.google.com/citations?user=5xA-qXYAAAAJ&hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar big-icon"></i>
+      </a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a itemprop="sameAs" href="https://www.researchgate.net/profile/Shaswat-Garg" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate big-icon"></i>
+      </a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a itemprop="sameAs" href="https://www.reddit.com/user/Wide_Sink_1571" target="_blank" rel="noopener">
+        <i class="fab fa-reddit big-icon"></i>
+      </a>
+    </li>
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a itemprop="sameAs" href="https://www.linkedin.com/in/shaswat-garg-b68278198/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin big-icon"></i>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+</div>
 
 
 
