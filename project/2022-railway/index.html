@@ -671,8 +671,8 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/project/2022-railway/BiAstar.gif" itemprop="image" alt="">
-        <span class="article-header-caption">Bidirectional A*</span>
+        <img src="/project/2022-railway/Top_View.png" itemprop="image" alt="">
+        <span class="article-header-caption">Top View of the 17DoF Railway Model</span>
       </div>
     </div>
   </div>
@@ -884,39 +884,56 @@
 <li>
 <ul>
 <li><a href="#background">Background</a></li>
-<li><a href="#single-sequence-evaluation">Search Based Planning</a></li>
-<li><a href="#interclass-evaluation">Sampling Based Planning</a></li>
+<li><a href="#system-architecture-railhunt">System Architecture of Railhunt</a></li>
+<li><a href="#user-guide">User Guide</a></li>
 </ul></li>
 </ul>
 </nav></p>
 
 <h2 id="background">Background</h2>
 
-<li><p>In this work, we will create different motion planning algorithms like Heuristic and Incremental Search based and Sampling based algorithms in a 2D environment for a point robot.</p></li>
+<li><p>Wheelset hunting is a common instability caused due to curved profile of wheels and rails. During hunting, sustained periodic oscillations of wheelset are observed, which causes excessive vibration, and derailment.</p></li>
 
-<li><p>All the algorithms are implemented in python. The environment is implemented using a priority queue and is made effecient using the concept of OOPs.</p></li>
+<li><p>A Graphical User Interface (GUI), specific to hunting analysis will allow engineers, and researchers to efficiently perform design studies on a railway carbody.</p></li> 
 
-<h2 id="single-sequence-evaluation">Search Based Planning</h2>
+<li><p>Therefore, in this work, we have developed a GUI using MATLAB's App Designer called Railhunt.</p></li>
+
+<h2 id="system-architecture-railhunt">System Architecture of Railhunt</h2>
+
+<p>Railhunt is designed in several stages which allows the users to systematically understand the hunting analysis</p>
+
+<p>There are mainly three stages, Pre Processor (input and visualize the railway carbody system), Processor (For selecting the parameter, whose effect on hunting stability are to be studied) and Post Processor (Display the simulation results).</p>
 
 <p><center>
-  <img src="./ARA.gif" alt="Anytime_Repairing"  width="60%"  />
+  <img src="./FlowChart.jpg" alt="Flow-Chart"  width="60%"  />
   <small>
   <b>
-    Anytime Repairing A*
+    System Architecture and Flow of simulation
   </b>
   </small>
 </center></p>
 
-<h2 id="single-sequence-evaluation">Sampling Based Planning</h2>
+<h2 id="user-guide">User Guide</h2>
 
-<p><center>
-  <img src="./RRTConnect.gif" alt="RRT_connect"  width="60%"  />
-  <small>
-  <b>
-    RRT Connect
-  </b>
-  </small>
-</center></p>
+<h3 id="machine-specifications">Machine specifications</h3>
+
+<ul>
+<li>CPU: Intel Core i5 8th Gen</li>
+<li>RAM: 8GB</li>
+</ul>
+
+<h3 id="dev-environment">Dev Environment</h3>
+
+<ul>
+<li><strong>Test passed</strong> : matlab-2021a/matlab-2020a</li>
+<li>Toolbox used
+
+<ul>
+<li>App Designer Toolbox</li>
+</ul></li>
+</ul>
+
+<h3 id="how-to-run">How to run</h3>
 
     </div>
 
